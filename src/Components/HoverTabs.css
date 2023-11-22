@@ -1,0 +1,11 @@
+.hover-tabs-wrapper {
+  display: flex;
+  flex-direction: column;
+  min-width: 400px;
+  min-height: 200px;
+  background-color: gainsboro;
+  align-items: flex-start;
+}
+.tabs-links-contents {
+  background-color: aqua;
+}

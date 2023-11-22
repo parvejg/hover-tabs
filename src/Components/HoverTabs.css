@@ -1,11 +1,38 @@
-.hover-tabs-wrapper {
+.main-container {
   display: flex;
   flex-direction: column;
-  min-width: 400px;
-  min-height: 200px;
+  flex-wrap: nowrap;
+}
+.hover-tabs-wrapper {
+  min-width: 700px;
+  min-height: 100px;
   background-color: gainsboro;
-  align-items: flex-start;
+  border: 1px solid black;
+  align-content: center;
+  flex-wrap: nowrap;
+  flex-flow: nowrap;
+}
+
+.hover-tabs-links-wrapper {
+  display: flex;
+  min-width: 700px;
+  min-height: 100px;
+  flex-wrap: nowrap;
+  flex-flow: nowrap;
+}
+.hover-tabs-links {
+  font-size: larger;
+  border: none;
+  background-color: gainsboro;
+  padding: 20px;
+  cursor: pointer;
+}
+.hover-tabs-links:hover {
+  background-color: grey;
+  color: aliceblue;
 }
 .tabs-links-contents {
-  background-color: aqua;
+  min-height: 150px;
+  border: 1px solid black;
+  min-width: 700px;
 }

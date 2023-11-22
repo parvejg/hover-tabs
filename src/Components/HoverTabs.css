@@ -2,10 +2,10 @@
   display: flex;
   flex-direction: column;
   flex-wrap: wrap;
-  min-width: 800px;
+  width: 60%;
 }
 .hover-tabs-wrapper {
-  min-width: 500px;
+  width: 100%;
   min-height: 100px;
   background-color: gainsboro;
   border: 1px solid black;
@@ -13,7 +13,7 @@
 }
 
 .hover-tabs-links-wrapper {
-  min-width: 700px;
+  width: 100%;
   min-height: 100px;
 }
 .hover-tabs-links {
@@ -31,5 +31,5 @@
 .tabs-links-contents {
   min-height: 150px;
   border: 1px solid black;
-  min-width: 500px;
+  width: 100%;
 }

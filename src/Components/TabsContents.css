@@ -1,0 +1,11 @@
+.content-title {
+  align-items: right;
+  font-size: 25px;
+}
+.hover-tabs-content {
+  font-size: large;
+}
+.hoverTabs-content-container {
+  align-items: flex-start;
+  padding: 0.3rem;
+}

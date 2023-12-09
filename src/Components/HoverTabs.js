@@ -33,6 +33,8 @@ export const HoverTabs = () => {
     );
   return (
     <div className="main-container">
+      <h1>Hover tabs</h1>
+
       <div className="hover-tabs-wrapper">
         <div className="hover-tabs-links-wrapper">
           <button

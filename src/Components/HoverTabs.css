@@ -2,19 +2,29 @@
   display: flex;
   flex-direction: column;
   flex-wrap: wrap;
-  width: 60%;
+  border: none;
+  align-items: center;
+  justify-content: center;
+  min-width: 100%;
+  height: 100vh;
+  text-align: center;
 }
 .hover-tabs-wrapper {
-  width: 100%;
+  display: flex;
+  width: 50%;
   min-height: 100px;
   background-color: gainsboro;
-  border: 1px solid black;
-  align-content: center;
+  border: none;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
 }
 
 .hover-tabs-links-wrapper {
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
   width: 100%;
-  min-height: 100px;
+  gap: 2rem;
 }
 .hover-tabs-links {
   font-size: larger;
@@ -23,13 +33,18 @@
   padding: 20px;
   min-height: 100px;
   cursor: pointer;
+  text-align: center;
 }
 .hover-tabs-links:hover {
   background-color: grey;
   color: aliceblue;
 }
 .tabs-links-contents {
-  min-height: 150px;
-  border: 1px solid black;
-  width: 100%;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+  width: 50%;
+  border: 2px solid gainsboro;
 }
